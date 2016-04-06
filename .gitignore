@@ -1,0 +1,11 @@
+**Debug
+**ipch
+*.sdf
+*.sln
+**.vs
+*.suo
+*.filters
+*.vcxproj
+ReadMe.txt
+*.h
+stdafx.cpp
