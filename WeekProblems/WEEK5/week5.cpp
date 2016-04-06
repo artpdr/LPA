@@ -1,5 +1,5 @@
 /*#include "stdafx.h"*/
-#include <iostream>
+#include <cstdio>
 #include <vector>
 #include <algorithm>
 
@@ -33,20 +33,21 @@ void greedy_min_max_gap() {
 int main()
 {
 	
-	while (std::cin >> n_homeworks_) {
+	while (scanf("%d", &n_homeworks_)!=EOF) {
 		
 		for (int i = 0; i < n_homeworks_; i++) {
-			std::cin >> homework_[i].working_num_days >> homework_[i].deadline;
+			scanf("%d", &(homework_[i].working_num_days));
+			scanf("%d", &(homework_[i].deadline));
 		}
 
-		std::cin >> start_day_;
+		scanf("%d", &start_day_);
 
 		std::sort(homework_, homework_+n_homeworks_, customComparator);
 
 		major_gap_ = 0;
 		greedy_min_max_gap();
 
-		std::cout << major_gap_ << std::endl;
+		printf("%d\n", major_gap_);
 
 	}
 
