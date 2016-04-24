@@ -54,11 +54,13 @@ void calc_max(){
 			i_prev = i-1;
 			max_prof = 0;
 			for(k = 0; k < j_aux; k++){
+				//max(falar com pessoa i k horas e com as outras pessoas j-k horas).
 				max_temp = prof_[i][k] + aux_[i_prev][j-k];
 				if(max_temp > max_prof){
 					max_prof = max_temp;
 				}
 			}
+			//max com j horas até à pessoa i
 			aux_[i][j] = max_prof;
 		}
 	}

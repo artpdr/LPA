@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1461088375 source:e:\git\lpa\practice\treino2_publishorperish\main.cpp
+	<iostream>
+	<cstdlib>
+	<cstdio>
+
