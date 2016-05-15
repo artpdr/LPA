@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1463194326 source:e:\git\lpa\practice\zemanelhospital\ze\main.cpp
+	<stdlib.h>
+	<stdio.h>
+	<algorithm>
+	<limits.h>
+	<map>
+
