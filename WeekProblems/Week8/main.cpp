@@ -86,7 +86,11 @@ int main()
             dfs[i] = -1;
         }
 
-        findMaxTrafficLoad(1);
+        for(int i = 1; i <= numCrossings; i++){
+            //run algorithm in all non connected graphs
+            if(dfs[i] == -1)
+                findMaxTrafficLoad(i);
+        }
 
         printOutput();
 

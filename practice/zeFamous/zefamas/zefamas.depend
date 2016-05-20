@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1463482128 source:e:\git\lpa\practice\zefamous\zefamas\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<algorithm>
+
