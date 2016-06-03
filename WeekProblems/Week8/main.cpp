@@ -71,6 +71,7 @@ int main()
     int numCrossings, numConnections, crossId, trafficLoad;
     while(scanf("%d", &numCrossings) != EOF){
         for (int i = 1; i <= numCrossings; i++){
+            crossings[i].connections.clear();
             scanf("%d", &numConnections);
             for(int j = 0; j < numConnections; j++){
                 scanf("%d %d", &crossId, &trafficLoad);
@@ -94,10 +95,6 @@ int main()
 
         printOutput();
 
-        //clear crossing connections
-        for(int i = 1; i <= numCrossings; i++){
-            crossings[i].connections.clear();
-        }
     }
 
     return 0;
