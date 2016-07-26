@@ -1,5 +1,5 @@
 /*
-* Week 6, LPA course's Problem
+* Week 6, APL's course
 * University of Coimbra, 21.04.2016
 * Author: Artur Pedroso
 * License: WTFPL

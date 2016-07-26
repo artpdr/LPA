@@ -1,6 +1,6 @@
 /**
 * My solution to get the most proeficiency level talking to num_people 
-* with a limit of num_hours. For LPA course in University of Coimbra
+* with a limit of num_hours. For APL's course in University of Coimbra
 * Author: Artur Pedroso
 * Date: 11-03-2016
 * Licence: WTFPL 

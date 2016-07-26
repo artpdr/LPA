@@ -1,5 +1,5 @@
 /*
-* Week 7, LPA course's Problem (BFS)
+* Week 7, APL's course (BFS)
 * University of Coimbra, 07.05.2016
 * Author: Artur Pedroso
 * License: WTFPL

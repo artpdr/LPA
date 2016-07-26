@@ -1,5 +1,5 @@
 /*
-**ALP's course 
+**APL's course 
 **10th Week problem (The problem is modulated as Max flow problem)
 **University of Coimbra
 **Artur Pedros 01-06-2016
@@ -98,7 +98,7 @@ int main() {
 	//freopen("test.txt", "r", stdin);
 	int n, m;
 	while (scanf("%d %d", &n, &m) != EOF) {
-		int t = n + m+1;
+		int t = n+m+1;
 		buildProblemStructure(n, m, t);
 		solveProblem(0, t);
 		resetResidualCapacity(t + 1);

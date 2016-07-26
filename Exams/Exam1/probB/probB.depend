@@ -1,7 +1,0 @@
-# depslib dependency file v1.0
-1463091071 source:e:\git\lpa\exams\exam1\probb\main.cpp
-	<cstdio>
-	<cstdlib>
-	<map>
-	<limits.h>
-

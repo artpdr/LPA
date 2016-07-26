@@ -1,5 +1,5 @@
 /*
-* Week 8, LPA course's Problem (Articulation Points)
+* Week 8, APL's course Problem (Articulation Points)
 * University of Coimbra, 12.05.2016
 * Author: Artur Pedroso
 * License: WTFPL

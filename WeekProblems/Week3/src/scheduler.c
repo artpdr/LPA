@@ -1,6 +1,6 @@
 /**
 *My solution for scheduling n jobs with same priority in m processors
-*with the shortest possible time. For LPA course in University of Coimbra
+*with the shortest possible time. For APL's course in University of Coimbra
 *Author: Artur Pedroso
 *Date: 04-03-2016
 *Licence: WTFPL 
